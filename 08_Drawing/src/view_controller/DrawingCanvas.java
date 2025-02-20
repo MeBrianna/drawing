@@ -68,11 +68,6 @@ public class DrawingCanvas extends Application {
 		all.setCenter(canvas);
 		layoutOptions();
 
-		// You will need to call allPaintObjects after you clear the Canvas with
-		// fillRect.
-		// At that point, draw all shapes and then draw the shape being created with
-		// mouse event handlers while the current shape is being drawn at each mouse
-		// move.
 		allPaintObjects = new Vector<PaintObject>();
 
 		Scene scene = new Scene(all, 960, 700);
