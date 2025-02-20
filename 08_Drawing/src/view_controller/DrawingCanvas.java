@@ -38,7 +38,6 @@ public class DrawingCanvas extends Application {
 		launch(args);
 	}
 
-	// Use Vector instead of ArrayList
 	private Vector<PaintObject> allPaintObjects;
 
 	enum CurrentPaintObject {
